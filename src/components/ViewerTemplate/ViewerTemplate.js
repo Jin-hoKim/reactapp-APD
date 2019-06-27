@@ -8,6 +8,9 @@ const ViewerTemplate = ({ viewer, spaceNavigator }) => {
     return(
         <div className={cx('viewer-template')}>
             <header>
+                <span>
+                    <i className="fas fa-user-astronaut"></i>
+                </span>
                 Astronomy Picture of the Day
             </header>
             <div className={cx('viewer-wrapper')}>
@@ -15,6 +18,7 @@ const ViewerTemplate = ({ viewer, spaceNavigator }) => {
                 <div className={cx('space-navigator-wrapper')}>
                     {spaceNavigator}
                 </div>
+                
             </div>
         </div>
     )

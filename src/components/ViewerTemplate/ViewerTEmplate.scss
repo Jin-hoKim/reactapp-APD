@@ -1,21 +1,25 @@
 @import 'utils';
 
 .viewer-template {
-    header {
-        background: $oc-gray-9;
-        height: 5rem;
-        color: white;
-        padding: 1rem;
 
+    header {
         display: flex;
         align-items: center;
 
+        background: $oc-gray-9;
+        height: 5rem;
+        padding: 1rem;
         font-size: 2rem;
+
+        color: white;
         font-weight: 600;
 
-        // 태블릿 사이즈에서  폰트 크기 줄이기
         @include media("<tablet") {
             font-size: 1.25rem;
+        }
+
+        span {
+            margin-right: 10px;
         }
     }
 

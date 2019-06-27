@@ -1,0 +1,21 @@
+.error-view {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        padding: 0;
+        margin: 0;
+        font-size: 5rem;
+        color: red;
+    }
+}
