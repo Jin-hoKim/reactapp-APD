@@ -37,8 +37,7 @@ const Viewer = ({mediaType, url, loading}) => {
                     frameBorder="0"
                     gesture="media"
                     allow="encrypted-media"
-                    allowFullScreen>
-                </iframe>
+                    allowFullScreen/>
             ) 
         }
         </div>
